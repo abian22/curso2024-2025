@@ -133,11 +133,11 @@ VALUES
 
 (DEFAULT, 'Carlos', 'López', '11223344C', 'carlos.lopez@gmail.com', 634567890, 'C'), 
 
-(DEFAULT, 'Manuel', 'Jiménez', '3215678A', 'manuel.jimenez@gmail.com', 652145423, 'A,B'); 
+(DEFAULT, 'Manuel', 'Jiménez', '3215678A', 'manuel.jimenez@gmail.com', 652145423, 'A,B');
 ```
 #### Insertar datos de sucursal
 ``` sql
-INSERT INTO sucursal 
+INSERT INTO sucursales 
 
 VALUES  
 
@@ -161,7 +161,7 @@ VALUES
 
 (DEFAULT, '123ABC', 'Toyota Corolla', 2020, 'Rojo', 'gasolina', 35.99, 'SI', 1), 
 
-(DEFAULT, '456DEF', 'Ford Focus', 2021, 'Azul', 'gasolina,diesel', 40.50, 'SI', 2); 
+(DEFAULT, '456DEF', 'Ford Focus', 2021, 'Azul', 'gasolina,diesel', 40.50, 'SI', 2);
 ```
 #### Insertar datos de reservas
 ``` sql
@@ -169,17 +169,15 @@ INSERT INTO reservas
 
 VALUES  
 
-(DEFAULT, 150.0, '2025-03-10 10:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1),
+(DEFAULT, '2025-03-10 10:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1), 
 
-(DEFAULT, 220.0, '2025-03-10 12:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1),
+(DEFAULT, '2025-03-10 12:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1), 
 
-(DEFAULT, 220.0, '2025-03-10 12:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1), 
+(DEFAULT, '2025-03-15 12:00:00', '2025-03-18 12:00:00', 'enCurso', 2, 2), 
 
-(DEFAULT, 200.5, '2025-03-15 12:00:00', '2025-03-18 12:00:00', 'enCurso', 2, 2, 2), 
+(DEFAULT, '2025-03-20 09:00:00', '2025-03-22 09:00:00', 'finalizado', 3, 3), 
 
-(DEFAULT, 350.0, '2025-03-20 09:00:00', '2025-03-22 09:00:00', 'finalizado', 3, 3, 3), 
-
-(DEFAULT, 350.0, '2025-03-24 19:00:00', '2025-03-28 09:00:00', 'anulado', 3, 3, 3); 
+(DEFAULT,'2025-03-24 19:00:00', '2025-03-28 09:00:00', 'anulado', 3, 3);
 ```
 #### Insertar datos de empleados
 ``` sql
