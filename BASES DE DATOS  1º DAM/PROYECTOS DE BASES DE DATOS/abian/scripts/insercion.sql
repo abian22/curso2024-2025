@@ -55,3 +55,15 @@ VALUES
 (DEFAULT, '2025-03-20 09:00:00', '2025-03-22 09:00:00', 'finalizado', 3, 3), 
 
 (DEFAULT,'2025-03-24 19:00:00', '2025-03-28 09:00:00', 'anulado', 3, 3);
+
+## Datos empleados
+
+INSERT INTO empleados 
+
+VALUES  
+
+(DEFAULT, 'Gerente', 'María', 'Martínez', 'maria.martinez@gmail.com', 611223344, 1), 
+
+(DEFAULT, 'Asesor', 'Pedro', 'Gómez', 'pedro.gomez@gmail.com', 622334455, 2), 
+
+(DEFAULT, 'Recepcionista', 'Lucía', 'Sánchez', 'lucia.sanchez@gmail.com', 633445566, 3) 
