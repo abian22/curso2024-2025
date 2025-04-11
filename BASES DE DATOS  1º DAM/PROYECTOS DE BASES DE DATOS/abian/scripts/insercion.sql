@@ -1,12 +1,4 @@
--- -----------------------------------------------------
--- Seleccionar la base de datos
--- -----------------------------------------------------
-
-USE carrentalx; 
-
--- -----------------------------------------------------
--- Datos clientes
--- -----------------------------------------------------
+## Datos clientes
 
 INSERT INTO clientes 
 
@@ -20,11 +12,9 @@ VALUES
 
 (DEFAULT, 'Manuel', 'Jiménez', '3215678A', 'manuel.jimenez@gmail.com', 652145423, 'A,B');
 
--- -----------------------------------------------------
--- Datos sucursal
--- -----------------------------------------------------
+## Datos sucursales
 
-INSERT INTO sucursal 
+INSERT INTO sucursales 
 
 VALUES  
 
@@ -34,9 +24,7 @@ VALUES
 
 (DEFAULT, 'Sucursal Sur', 'Calle Sur 789', 934567890, 'sur@gmail.com'); 
 
--- -----------------------------------------------------
--- Datos vehículos
--- -----------------------------------------------------
+## Datos vehñiculos
 
 INSERT INTO vehiculos 
 
@@ -52,27 +40,23 @@ VALUES
 
 (DEFAULT, '456DEF', 'Ford Focus', 2021, 'Azul', 'gasolina,diesel', 40.50, 'SI', 2);
 
--- -----------------------------------------------------
--- Datos reservas
--- -----------------------------------------------------
+## Datos reservas
 
 INSERT INTO reservas 
 
 VALUES  
 
-(DEFAULT, 150.0, '2025-03-10 10:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1), 
+(DEFAULT, '2025-03-10 10:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1), 
 
-(DEFAULT, 220.0, '2025-03-10 12:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1), 
+(DEFAULT, '2025-03-10 12:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1), 
 
-(DEFAULT, 200.5, '2025-03-15 12:00:00', '2025-03-18 12:00:00', 'enCurso', 2, 2, 2), 
+(DEFAULT, '2025-03-15 12:00:00', '2025-03-18 12:00:00', 'enCurso', 2, 2), 
 
-(DEFAULT, 350.0, '2025-03-20 09:00:00', '2025-03-22 09:00:00', 'finalizado', 3, 3, 3), 
+(DEFAULT, '2025-03-20 09:00:00', '2025-03-22 09:00:00', 'finalizado', 3, 3), 
 
-(DEFAULT, 350.0, '2025-03-24 19:00:00', '2025-03-28 09:00:00', 'anulado', 3, 3, 3);
+(DEFAULT,'2025-03-24 19:00:00', '2025-03-28 09:00:00', 'anulado', 3, 3);
 
--- -----------------------------------------------------
--- Datos empleados
--- ----------------------------------------------------
+## Datos empleados
 
 INSERT INTO empleados 
 
@@ -83,5 +67,3 @@ VALUES
 (DEFAULT, 'Asesor', 'Pedro', 'Gómez', 'pedro.gomez@gmail.com', 622334455, 2), 
 
 (DEFAULT, 'Recepcionista', 'Lucía', 'Sánchez', 'lucia.sanchez@gmail.com', 633445566, 3) 
-
- 
