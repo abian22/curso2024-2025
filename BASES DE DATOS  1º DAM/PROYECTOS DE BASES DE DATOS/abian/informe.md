@@ -13,7 +13,7 @@
 10. Vistas y triggers
 11. Conclusión
 
-## 3. Introducción
+# 3. Introducción
 El presente informe tiene como objetivo analizar y diseñar un sistema de gestión para la empresa **CarRentalX**, dedicada al alquiler de coches. La empresa busca modernizar sus procesos, actualmente manuales, para optimizar la gestión de clientes, vehículos, reservas, sucursales y empleados. Este documento ofrece una visión estructurada del sistema requerido, identificando las entidades clave, sus relaciones y posibles mejoras mediante funcionalidades adicionales.
 
 # 4. Análisis del Enunciado
