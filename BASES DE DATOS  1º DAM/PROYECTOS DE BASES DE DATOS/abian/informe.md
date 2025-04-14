@@ -74,3 +74,12 @@ La información se encuentra dispersa, dificultando la visibilidad global de la 
 
   - 💰 **Ingresos mensuales por sucursal**  
     Información financiera clave para la toma de decisiones.
+
+# 11. Conclusión
+El diseño propuesto para el sistema de gestión de CarRentalX busca optimizar y automatizar los procesos manuales actuales que afectan la eficiencia operativa de la empresa. Al identificar las entidades clave (clientes, vehículos, reservas, sucursales y empleados) y sus relaciones, se crea una estructura sólida que permitirá gestionar de manera centralizada la información de la empresa.
+
+El análisis también resalta la importancia de mejorar la automatización de tareas, como la gestión del estado de los vehículos tras las reservas, la generación de reportes financieros y operativos, y el uso de tecnologías como MySQL para la implementación del sistema.
+
+A través de las consultas propuestas, se ofrece una amplia capacidad de análisis de los datos almacenados, permitiendo obtener información valiosa sobre los vehículos, los clientes, las reservas, los empleados y las sucursales.
+
+La ampliación de la base de datos con nuevas tablas para el manejo de pagos y mantenimientos de vehículos añade una capa adicional de funcionalidad y mejora la capacidad de la empresa para gestionar tanto los aspectos financieros como los operativos de sus vehículos.
